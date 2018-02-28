@@ -196,13 +196,13 @@ public class GalleryFragment extends Fragment {
     }
 
 
-    public class Adapter extends RecyclerView.Adapter<Adapter.VH> {
+    public class Adapter extends RecyclerView.Adapter<Adapter.VH>  {
 
 
         boolean flag;
 
         @Override
-        public VH onCreateViewHolder(ViewGroup parent, int viewType) {
+        public VH onCreateViewHolder(ViewGroup parent, int viewType)  {
 
             return new VH(getLayoutInflater().inflate(R.layout.inflate_image, parent, false));
         }
