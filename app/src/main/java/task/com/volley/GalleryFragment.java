@@ -207,6 +207,7 @@ public class GalleryFragment extends Fragment {
             return new VH(getLayoutInflater().inflate(R.layout.inflate_image, parent, false));
         }
 
+
         public  int calculateInSampleSize(
                 BitmapFactory.Options options, int reqWidth, int reqHeight) {
             // Raw height and width of image
