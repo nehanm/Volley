@@ -201,6 +201,7 @@ public class GalleryFragment extends Fragment {
 
         boolean flag;
 
+
         @Override
         public VH onCreateViewHolder(ViewGroup parent, int viewType)  {
 
